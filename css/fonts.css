@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../assets/fonts/Inter-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url(../assets/fonts/Kalam-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-VariableFont.ttf);
+}
+
+:root {
+    --font-inter: 'Inter', sans-serif;
+    --font-kalam: 'Kalam', sans-serif;
+    --font-roboto: 'Robot', sans-serif;
+}
