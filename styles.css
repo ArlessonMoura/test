@@ -1,9 +1,15 @@
-body {
-    background-color: lightblue;
+:root {
+    /*Paleta de Cores*/
+    --color-backgrond-blue: #f7fafc;
+    --color-background-white: #fff;
+
+    --color-primary-blue: #1280ed;
+    --color-secondary-blue: #4d7399;
+
+    --color-primary-white: #f9f9f9;
+    --color-secundary-white: #e8edf2;
 }
 
-.janela-celular {
-    background-color: white;
-    width: 450px;
-    height: 800px;
+body {
+    background-color: lightgray;
 }
