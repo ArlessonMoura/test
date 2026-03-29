@@ -114,6 +114,10 @@ img {
 .width-100pct {
     width: 100%;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}
 /*#endregion*/
 
 /*#endregion*/
