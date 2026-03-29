@@ -1,25 +1,70 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Atividade de Git</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-    <body>
-        <header>
-            
-        </header>
+<body>
+    <main>
+        <div class="janela-celular">
 
-        <main>
-             <div class="janela-celular">
-                
-             </div>
-        </main>
+            <!-- HEADER -->
+            <header class="topo confirm-topo">
+                <span class="close">✕</span>
+                <span class="titulo-centro">Confirmation</span>
+                <span></span>
+            </header>
 
-        <footer>
+            <!-- CONTENT -->
+            <section class="confirm-content">
+                <h1>Booking Confirmed</h1>
+                <p class="descricao">
+                    Your seat at the Central Library has been successfully booked.
+                </p>
 
-        </footer>
-    </body>
+                <!-- INFO LIST -->
+                <div class="info-item">
+                    <div class="icon-box">📍</div>
+                    <div>
+                        <span class="label">Location</span>
+                        <span class="link">Central Library</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon-box">🪑</div>
+                    <div>
+                        <span class="label">Seat</span>
+                        <span class="link">2nd Floor, Study Area A</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon-box">🕒</div>
+                    <div>
+                        <span class="label">Time</span>
+                        <span class="link">10:00 AM - 12:00 PM</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BUTTON -->
+            <div class="btn-container">
+                <button>Set Reminder</button>
+            </div>
+
+            <!-- NAVBAR -->
+            <footer class="navbar">
+                <div>🏠<span>Home</span></div>
+                <div>🔍<span>Search</span></div>
+                <div class="active">🔖<span>My Bookings</span></div>
+                <div>❓<span>Help</span></div>
+            </footer>
+
+        </div>
+    </main>
+</body>
 </html>
