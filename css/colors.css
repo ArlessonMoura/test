@@ -1,8 +1,10 @@
 :root {
     /*Paleta de Cores*/
     /* ->Preenchimento e fundo*/
-    --color-backgrond-blue: #eff9ff;
+    --color-backgrond-blue: #f7fafc;
     --color-background-white: #fff;
+
+    --color-border-white: #e8edf2;
 
     --color-primary-blue: #1280ed;
     --color-secondary-blue: #4d7399;
