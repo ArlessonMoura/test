@@ -76,7 +76,7 @@ body {
 
 /*#region Customização de fontes/texto*/
 
-/*#region Alinhamento de Texto*/
+/*#region -> Alinhamento de Texto*/
 .text-aling-center {
     text-align: center;
 }
@@ -119,12 +119,20 @@ body {
 /*#endregion*/
 
 /*#region Controle de imagens*/
-.img-container {
+.img-container-h {
     display: flex;
 
     height: 100%;
 
     align-items: center;
+}
+
+.img-container-w {
+    display: flex;
+
+    width: 100%;
+
+    align-content: center;
 }
 
 img {
