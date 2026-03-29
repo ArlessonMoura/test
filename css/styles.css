@@ -87,6 +87,10 @@ body {
 .font-color-primary-black {
     color: var(--color-text-primary-black);
 }
+
+.font-color-white {
+    
+}
 /*#endregion*/
 
 /*#endregion*/
