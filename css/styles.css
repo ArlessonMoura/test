@@ -76,12 +76,16 @@ body {
 /*#region Customização de fontes*/
 
 /*#region cor*/
-.font-color-primary-blue {
+.font-text-color-primary-blue {
     color: var(--color-text-primary-blue);
 }
 
-.font-color-secundary-blue {
+.font-text-color-secundary-blue {
     color: var(--color-text-secundary-blue);
+}
+
+.font-text-color-primary-black {
+    color: var(--color-text-primary-black);
 }
 /*#endregion*/
 
