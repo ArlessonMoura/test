@@ -91,6 +91,12 @@ body {
 
 /*#endregion*/
 
+/*#region Controles e cutomização de botão*/
+.button-bg-blue {
+    background-color: var(--color-primary-blue);
+}
+/*#endregion*/
+
 /*#region Controle de imagens*/
 .img-container {
     display: flex;
