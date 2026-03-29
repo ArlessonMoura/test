@@ -11,6 +11,7 @@
     border: 0px;
 
     font-family: var(--font-inter);
+
 }
 
 body {
@@ -69,6 +70,10 @@ body {
     justify-content: space-evenly;
 }
 
+.flexbox-justify-start {
+    justify-content: start;
+}
+
 .flexbox-itens-center {
     align-items: center;
 }
@@ -79,6 +84,10 @@ body {
 
 .flexbox-gap-10pct {
     gap: 10%;
+}
+
+.item-get-max-space {
+    margin: 0 auto;
 }
 
 /*#endregion*/
