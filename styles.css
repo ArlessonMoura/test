@@ -22,3 +22,27 @@ body {
 
     overflow: hidden;
 }
+
+/*#region Controles de FlexBox*/
+.flexbox {
+    display: flex;
+}
+
+.flexbox-column {
+    flex-direction: column;
+}
+/*#endregion*/
+
+/*#region Controles de Imagem*/
+.img-container {
+    display: flex;
+
+    width: auto;
+    height: 35vh;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+/*#endregion*/
