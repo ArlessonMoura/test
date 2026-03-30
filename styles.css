@@ -14,14 +14,21 @@
     border: 0px;
 }
 
-html {    
+html, body {    
     background-image: linear-gradient(45deg, var(--color-bg-blue) 50%, var(--color-bg-white));
     background-repeat: no-repeat;
 
     width: 100vw;
     height: 100vh;
 
+    font-size: 24px;
+
     overflow: hidden;
+}
+
+.ajustes-container-telas-exemplo {
+    margin-top: -8%;
+    margin-right: 13%;
 }
 
 /*#region Controles de FlexBox*/
@@ -37,8 +44,16 @@ html {
     justify-content: center;
 }
 
-.flexbox-gap-2pct {
-    gap: 2%;
+.flexbox-justify-content-space-between {
+    justify-content: space-between;
+}
+
+.flexbox-justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flexbox-gap-4pct {
+    gap: 4%;
 }
 
 .flexbox-gap-1pct {
@@ -54,17 +69,33 @@ html {
 }
 /*  #endregion*/
 
-/*  #region Tamanho*/
+/*  #region -> Tamanho*/
 .height-100pct {
     height: 100%;
 }
 
-.height-50pct {
+.width-100pct {
     height: 50%;
 }
 /*  #endregion*/
 
+/*  #region -> padding*/
+.padding-5pct {
+    padding: 5%;
+}
+
+.padding-right-left-5pct {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/*  #endregion*/
+
+.zindex-1 {
+    z-index: 1;
+}
+
 /*#endregion*/
+
 /*#region Controles de Imagem*/
 .img-container {
     display: flex;
