@@ -1,3 +1,9 @@
 body {
     background-color: lightblue;
 }
+
+.janela-celular {
+    background-color: white;
+    width: 450px;
+    height: 800px;
+}
