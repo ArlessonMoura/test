@@ -13,7 +13,7 @@
         </header>
 
         <main>
-             <div class="janela-celular flexbox flexbox-column"> <!--Janela Home-->
+             <div class="janela-celular flexbox flexbox-column"> <!-- Janela Booking -->
                 <!-- Status Bar -->
                 <div class="flexbox status-bar flexbox-justify-space-between">
 
@@ -22,7 +22,7 @@
                     </div>
 
                     <p class="flexbox flexbox-column flexbox-center height-100pct">
-                        8:28 PM
+                        3:35 PM
                     </p>
 
                     <div class="img-container-h">
@@ -31,105 +31,169 @@
                 </div>
 
                 <!-- Conteudo Principal -->
-                <div class="flexbox flexbox-column flexbox-center flexbox-justify-space-between height-100pct paddin-top-botton-10pct">
+                <div class="flexbox flexbox-column flexbox-center flexbox-justify-start height-100pct">
                     
-                    <!-- Primeiros Títulos -->
-                    <div class="flexbox flexbox-column flexbox-itens-center flexbox-gap-5pct">
-                        <h2 class="font-color-primary-black">
-                            Library Seat Booking
+                    <!-- Topo / titulo da página -->
+                    <div class="flexbox flexbox-center">
+                        <div>
+                            <img src="assets/images/icons/booking/return-arrow.png" alt="return-arrow">
+                        </div>
+
+                        <h2 class="font-color-primary-black item-get-max-space">
+                            Book a Seat
                         </h2>
-
-                        <h1 class="font-color-secundary-black">
-                            Find Your Perfect Study Spot
-                        </h1>
-
-                        <p class="font-color-secundary-blue">
-                            Reserve your ideal study space with ease
-                        </p>
                     </div>
                     
-                    <!-- Container das imagens de exemplos de locais de estudo -->
-                    <div class="flexbox flexbox-gap-5pct paddin-right-left-10pct overflow-hidden">
-                        <div class="flexbox flexbox-column width-100pct">
-                            <div class="img-container-w">
-                                <img src="assets/images/scenarios/modern-library.png" alt="modern-library">
+                    <!-- Seleção de individual ou em grupo -->
+                    <div class="flexbox flexbox-center bg-primary-gray paddin-5px border-radius-10px margin-right-left-5pct">
+                            <div class="flexbox flexbox-center bg-white border-5px border-radius-10px width-100pct">
+                                <p class="font-color-primary-black">
+                                    individual
+                                </p>
                             </div>
                             
-                            <div>
-                                <h4 class="font-color-primary-black">
-                                    Modern Library
-                                </h4>
-
+                            <div class="flexbox flexbox-center bg-primary-gray border-5px border-radius-10px width-100pct">
                                 <p class="font-color-primary-blue">
-                                    Explore our modern library facilities.
+                                    Group
                                 </p>
                             </div>
-                        </div>
+                    </div>
 
-                        <div class="flexbox flexbox-column width-100pct">
-                            <div class="img-container-w">
-                                <img src="assets/images/scenarios/quiet-study-room.png" alt="quiet-study-room">
+                    <!-- Informação de lugares livres / ocupados -->
+                    <div class="flexbox flexbox-column">
+                        <h2 class="paddin-10px">
+                            Available Seats
+                        </h2>
+
+                        <div class="flexbox flexbox-center flexbox-gap-5pct paddin-right-left-10pct">
+                            <div class="flexbox flexbox-column flexbox-itens-center paddin-10px bg-green border-radius-10px width-100pct">
+                                <h2 class="font-color-green">
+                                    4
+                                </h2>
+
+                                <p class="font-color-green">
+                                    Available
+                                </p>
                             </div>
 
-                            <div>
-                                <h4 class="font-color-primary-black">
-                                    Quiet Study Room
-                                </h4>
+                            <div class="flexbox flexbox-column flexbox-itens-center paddin-10px bg-red border-radius-10px width-100pct">
+                                <h2 class="font-color-red">
+                                    0
+                                </h2>
 
-                                <p class="font-color-primary-blue">
-                                    Find a quiet space to study
+                                <p class="font-color-red">
+                                    Occupied
                                 </p>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Botão de disponibilidade -->
-                     <div class="flexbox flexbox-center">
-                        <button class="button-check button-bg-blue">
-                            <h2 class="font-color-white paddin-10px">
-                                <strong>Check Availability / Book Seat</strong>
-                            </h2>
-                        </button>
-                     </div>
-                    
-                     <!-- Feature Section -->
-                     <div class="flexbox flexbox-column flexbox-itens-center flexbox-gap-5pct">
-                        <h2 class="font-color-secundary-black"> <!-- Titulo -->
-                            Why Choose LibrarySeats?
-                        </h2>
-                        <!-- Features containers -->
-                        <div class="flexbox flexbox-gap-5pct">
-                            <div class="flexbox flexbox-column flexbox-itens-center flexbox-justify-space-between flexbox-gap-5pct border-full-solid-white-4px border-radius-10px paddin-10px width-100pct">
-                                <div class="img-container-h height-100pct">
-                                    <img src="assets/images/icons/central-select-bar/clock.png" alt="clock-icon">
+
+                    <!-- Locais para escolha -->
+                    <div class="flexbox flexbox-column">
+                        <div class="flexbox paddin-5pct">
+                            <div class="flexbox flexbox-gap-5pct width-100pct">
+                                <div class="img-container-h">
+                                    <img src="assets/images/icons/booking/seat-icon.png" alt="seat-icon">
                                 </div>
 
-                                <p class="font-family-roboto text-aling-center font-color-secundary-black height-50pct">
-                                    24/7 <br> Booking
-                                </p>
+                                <div class="flexbox flexbox-center flexbox-column">
+                                    <h4 class="font-color-primary-black">
+                                        Seat 1
+                                    </h4>
+
+                                    <p class="font-color-secundary-blue">
+                                        10:00 AM - 12:00 PM
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="flexbox flexbox-column flexbox-itens-center flexbox-justify-space-between flexbox-gap-5pct border-full-solid-white-4px border-radius-10px paddin-10px width-100pct">
-                                <div class="img-container-h height-100pct">
-                                    <img src="assets/images/icons/central-select-bar/people.png" alt="people-icon">
-                                </div>
-
-                                <p class="font-family-roboto text-aling-center font-color-secundary-black height-50pct">
-                                    Group Options
-                                </p>
-                            </div>
-
-                            <div class="flexbox flexbox-column flexbox-itens-center flexbox-justify-space-between flexbox-gap-5pct border-full-solid-white-4px border-radius-10px paddin-10px width-100pct">
-                                <div class="img-container-h height-100pct">
-                                    <img src="assets/images/icons/central-select-bar/notification.png" alt="bell-icon">
-                                </div>
-
-                                <p class="font-family-roboto text-aling-center font-color-secundary-black height-50pct">
-                                    Smart Reminders
-                                </p>
+                            <div class="flexbox width-25pct">
+                                <button class="bg-primary-gray border-radius-10px width-100pct">
+                                    <h3 class="font-color-primary-black">
+                                        Book
+                                    </h3>
+                                </button>
                             </div>
                         </div>
-                     </div>
+
+                        <div class="flexbox paddin-5pct">
+                            <div class="flexbox flexbox-gap-5pct width-100pct">
+                                <div class="img-container-h">
+                                    <img src="assets/images/icons/booking/seat-icon.png" alt="search-icon">
+                                </div>
+
+                                <div class="flexbox flexbox-center flexbox-column">
+                                    <h4 class="font-color-primary-black">
+                                        Seat 2
+                                    </h4>
+
+                                    <p class="font-color-secundary-blue">
+                                        12:00 PM - 2:00 PM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flexbox width-25pct">
+                                <button class="bg-primary-gray border-radius-10px width-100pct">
+                                    <h3 class=" font-color-primary-black">
+                                        Book
+                                    </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flexbox paddin-5pct">
+                            <div class="flexbox flexbox-gap-5pct width-100pct">
+                                <div class="img-container-h">
+                                    <img src="assets/images/icons/booking/seat-icon.png" alt="seat-icon">
+                                </div>
+
+                                <div class="flexbox flexbox-center flexbox-column">
+                                    <h4 class="font-color-primary-black">
+                                        Seat 3
+                                    </h4>
+
+                                    <p class="font-color-secundary-blue">
+                                        2:00 PM - 4:00 PM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flexbox width-25pct">
+                                <button class="bg-primary-gray border-radius-10px width-100pct">
+                                    <h3 class="font-color-primary-black">
+                                        Book
+                                    </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flexbox paddin-5pct">
+                            <div class="flexbox flexbox-gap-5pct width-100pct">
+                                <div class="img-container-h">
+                                    <img src="assets/images/icons/booking/seat-icon.png" alt="seat-icon">
+                                </div>
+
+                                <div class="flexbox flexbox-center flexbox-column">
+                                    <h4 class="font-color-primary-black">
+                                        Seat 4
+                                    </h4>
+
+                                    <p class="font-color-secundary-blue">
+                                        4:00 PM - 6:00 PM
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flexbox width-25pct">
+                                <button class="bg-primary-gray border-radius-10px width-100pct">
+                                    <h3 class="font-color-primary-black">
+                                        Book
+                                    </h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 <!-- Botton nav -->
@@ -137,17 +201,17 @@
                     
                     <div class="flexbox flexbox-column flexbox-center flexbox-itens-center"> <!--Primeiro elemento - Home-->
                         <div class="img-container-h">
-                            <img src="assets/images/icons/bottom-menu/house.png" alt="house-icon">
+                            <img src="assets/images/icons/bottom-menu/house-unselect.png" alt="house-icon">
                         </div>
                         
-                        <p class="font-color-primary-blue">
+                        <p class="font-color-secundary-blue">
                             Home
                         </p>
                     </div>
 
                     <div class="flexbox flexbox-column flexbox-center flexbox-itens-center"> <!--Segundo elemento - Search-->
                         <div class="img-container-h">
-                            <img src="assets/images/icons/bottom-menu/search.png" alt="search-icon">
+                            <img src="assets/images/icons/bottom-menu/search-unselect.png" alt="search-icon">
                         </div>
 
                         <p class="font-color-secundary-blue">
@@ -157,17 +221,17 @@
 
                     <div class="flexbox flexbox-column flexbox-center flexbox-itens-center"> <!--Terceiro elemento - My Bookings-->
                         <div class="img-container-h">
-                            <img src="assets/images/icons/bottom-menu/bookings.png" alt="bookings-ico">
+                            <img src="assets/images/icons/bottom-menu/bookings-select.png" alt="bookings-ico">
                         </div>
 
-                        <p class="font-color-secundary-blue">
+                        <p class="font-color-primary-blue">
                             My Bookings
                         </p>
                     </div>
 
                     <div class="flexbox flexbox-column flexbox-center flexbox-itens-center"> <!--Quarto elemento - Help-->
                         <div class="img-container-h">
-                            <img src="assets/images/icons/bottom-menu/question.png" alt="">
+                            <img src="assets/images/icons/bottom-menu/question-unselect.png" alt="">
                         </div>
 
                         <p class="font-color-secundary-blue">

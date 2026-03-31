@@ -1,7 +1,7 @@
 :root {
     /*Paleta de Cores*/
     /* ->Preenchimento e fundo*/
-    --color-backgrond-blue: #f7fafc;
+    --color-background-blue: #f7fafc;
     --color-background-white: #fff;
 
     --color-border-white: #e8edf2;
@@ -12,6 +12,11 @@
     --color-primary-white: #f9f9f9;
     --color-secundary-white: #e8edf2;
 
+    --color-primary-gray: #e8edf2;
+
+    --color-free-green: #f0fdf4;
+    --color-occupied-red: #fff7ed;
+
     /* ->Texto*/
     --color-text-primary-black: #0d141c;
     --color-text-secundary-black: #1f2937;
@@ -21,4 +26,7 @@
     --color-text-secundary-blue: #4d7399;
 
     --color-text-white: #f7fafc;
+
+    --color-text-green: #15803d;
+    --color-text-red: #c2410c;
 }
